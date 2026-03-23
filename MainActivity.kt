@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Clase del Adaptador (puedes ponerla dentro o fuera de la Activity)
+    // Clase del Adaptador
     class WallpaperAdapter(private val images: List<Int>) :
         RecyclerView.Adapter<WallpaperAdapter.ViewHolder>() {
 
